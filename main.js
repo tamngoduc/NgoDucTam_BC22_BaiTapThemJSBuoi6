@@ -30,7 +30,7 @@ document.getElementById("btnPrimeNumber").addEventListener("click", function () 
     alert("Bạn hãy nhập số lớn hơn 2");
   } else {
     var result = "";
-    for (var i = 0; i < n; i++) {
+    for (var i = 0; i <= n; i++) {
       if (checkPrimeNumber(i) == true) {
         result += i + " ";
       }
